@@ -23,19 +23,18 @@ main {
  width: 60vw;
  height: 100vh;
  display: flex;
-
-
 }
 
 .left {
 
-    width: 30vw;
-    height: 60vh;
+    width: 500px;
+    height: 580px;
     background-color: #36320A;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .right {
@@ -46,6 +45,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .logo { 
