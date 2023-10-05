@@ -10,7 +10,7 @@
 
 main {
     display: flex;
-    background-color: #E2CE1A;
+    background-color: #ffc60d;
     align-content: center;
     justify-content: center;
     width: 100vw;
@@ -27,8 +27,8 @@ main {
 
 .left {
 
-    width: 500px;
-    height: 580px;
+    width: 40vw;
+    height: 80vh;
     background-color: #36320A;
     flex-direction: column;
     display: flex;
@@ -39,8 +39,8 @@ main {
 
 .right {
     width:  70vw;
-    height: 60vh;
-    background-color: #FEFAA1;
+    height: 80vh;
+    background-color: #fff38b;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@ a {
 h3 { 
     font-size: 40px;
     color: black;
-    margin-top: -190px;
+    margin-top: -100px;
 }
 
 h4 {
@@ -121,10 +121,23 @@ h4 {
 }
 
 .textfield {
-    background-color: #E2CE1A;
-    height: 60px;
-    width: 480px;
+    display: flex;
+    height: 50px;
+    width: 400px;
     border-radius: 16px;
-    margin: 10px;
+    margin: 20px;
 
+}
+
+label {
+    color: #36320A ;
+    font-weight: 700;
+}
+
+input {
+    background: #E2CE1A;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 16px;
 }
