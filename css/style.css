@@ -116,22 +116,33 @@ h4 {
     margin-top: -10px;
 }
 
-.cardlogin {
+#cardlogin {
     margin-top: 20px;
 }
 
 .textfield {
     display: flex;
+    align-items: center;
     height: 50px;
     width: 400px;
     border-radius: 16px;
     margin: 20px;
+    background-color: #E2CE1A;
 
 }
 
 label {
+    margin-left: 10px;
     color: #36320A ;
     font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.iconlabel {
+    height: 20px;
 }
 
 input {
@@ -140,4 +151,19 @@ input {
     height: 50px;
     border: none;
     border-radius: 16px;
+}
+
+#btn-loggin {
+    background-color: #36320A;
+    height: 70px;
+    width: 232px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+#btn-loggin:hover {
+    background-color: #1f1d06;
 }
